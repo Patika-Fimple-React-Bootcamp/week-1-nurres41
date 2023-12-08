@@ -1,0 +1,25 @@
+.listSection > table > thead > tr > th{
+    min-width: 100px;
+    text-align: center;
+    border: 1px gray solid;
+    padding: 4px 10px;
+}
+
+.listSection > table > tbody > tr > td{
+    min-width: 100px;
+    text-align: center;
+    border: 1px gray solid;
+    padding: 4px 10px;
+}
+
+.formSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSection > form {
+    display: flex;
+    gap: 1rem
+}

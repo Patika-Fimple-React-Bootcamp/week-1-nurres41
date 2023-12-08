@@ -1,0 +1,16 @@
+.App{
+  display: grid;
+  grid-template-columns: 1fr min(1440px, 94%) 1fr;
+  grid-template-rows: 96px auto 72px;
+  gap: 3rem;
+}
+
+.App > * {
+  grid-column: 2;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
